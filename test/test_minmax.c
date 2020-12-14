@@ -5,7 +5,7 @@
 #include "utest.h"
 
 int main() {
-    init_test();
+    init_test(FF_ALWAYS);
 
     // int
     add_test(min(1, 2) == 1);
